@@ -1,0 +1,66 @@
+<html>
+    <title>Above Horizon Bank | Username</title>
+    <head>
+        <script src="/Java Script/getUsername.js"></script>
+        <link rel="stylesheet" href="/Style/getUsername_style.css">
+    </head>
+
+    <body background="/Image Source/getUsername2.jpg">
+        <fieldset class="fieldset4">
+            <center><h3 id="forgot_username">Forgot Username</h3></center>
+            <img src="/Image Source/cancel.jpg" id="cancel" align="right" usemap="#cancel">
+            <map name="cancel">
+                <area shape="rect" coords="-1,0,58,44" href="login_page.html">
+            </map>
+        </fieldset>
+
+        <fieldset class="fieldset1">
+            <img src="/Image Source/getUsername1.jpg" id="getUsername1"> <br> <br>
+            <h3 class="text1">Fill in the details to receive your username on your registered mobile number</h3>
+            <h3 class="text2">If you are an Authorised Signatory, please use Mobile Number and Customer ID to proceed</h3> <br>
+
+            <fieldset class= "fieldset2">
+                <legend style="color: rgb(85, 83, 83); font-family: Arial, Helvetica, sans-serif; font-size: small;">Mobile number</legend>
+    
+                <form method="post">
+                    <input type="tel" maxlength="10" id="phone"><br>           
+                </form>
+            </fieldset>  <br><br>
+
+                <div id="and">And</div><br>
+
+            <fieldset class= "fieldset2">
+                <legend style="color: rgb(85, 83, 83); font-family: Arial, Helvetica, sans-serif; font-size: small;">Customer ID</legend>
+
+                <form method="post">
+                    <input type="tel" maxlength="10" id="customer_id"><br> <br>           
+                </form>
+                <a href="get_customerID.html" id="get_id">Get Customer ID</a>
+            </fieldset> <br><br>
+
+                <div id="or">Or</div> <br>
+
+            <fieldset class= "fieldset2">
+                <legend style="color: rgb(85, 83, 83); font-family: Arial, Helvetica, sans-serif; font-size: small;">Debit card number</legend>
+    
+                <form method="post">
+                    <input type="tel" maxlength="14" id="debit_num"><br> <br>           
+                </form>
+            </fieldset><br><br>
+
+            <div id="or">Or</div> <br>
+
+            <fieldset class= "fieldset2">
+                <legend style="color: rgb(85, 83, 83); font-family: Arial, Helvetica, sans-serif; font-size: small;">Account/Loan number</legend>
+    
+                <form method="post">
+                    <input type="tel" maxlength="11" id="acc_num"><br> <br>           
+                </form>
+            </fieldset>
+
+            <form method="post" align="center"> <br> <br> <br>
+                <input type="button" value="Get username" onclick="phoneNum()" id="login_button">
+            </form> <br> <br>
+        </fieldset>
+    </body>
+</html>

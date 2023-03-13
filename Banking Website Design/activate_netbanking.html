@@ -1,0 +1,43 @@
+<html>
+    <title>Above Horizon Bank | Activate NetBanking</title>
+    <head>
+        <link rel="stylesheet" href="/Style/activateNetBanking.css">
+        <script src="/Java Script/activateNetBanking.js"></script>
+    </head>
+
+    <body background="/Image Source/getUsername2.jpg">
+
+        <fieldset class="fieldset1">
+            <center><h3 id="internet_banking">Get started on Internet Banking</h3></center>
+            <img src="/Image Source/cancel.jpg" id="cancel" align="right" usemap="#internet_banking">
+            <map name="internet_banking">
+                <area shape="rect" coords="-1,0,58,44" href="login_page.html">
+            </map>
+        </fieldset>
+
+        <fieldset class="fieldset2">
+            <img src="/Image Source/getUsername1.jpg" id="getUsername1"> <br> 
+
+            <fieldset class= "fieldset3">
+                <legend style="color: rgb(85, 83, 83); font-family: Arial, Helvetica, sans-serif; font-size: small;">Mobile number</legend>
+    
+                <form method="post">
+                    <input type="tel" maxlength="10" id="phone"><br>           
+                </form>
+            </fieldset>   <br>
+
+            <fieldset class= "fieldset3">
+                <legend style="color: rgb(85, 83, 83); font-family: Arial, Helvetica, sans-serif; font-size: small;">Customer ID</legend>
+    
+                <form method="post">
+                    <input type="tel" id="customer_id" maxlength="10"><br>           
+                </form>
+                <a href="get_customerID.html" id="get_id">Get Customer ID</a>
+            </fieldset> <br>
+
+            <form method="post" align="center"> <br> 
+                <input type="button" value="Proceed" onclick="phoneNum()" id="login_button">
+            </form> <br> <br>
+        </fieldset>
+    </body>
+</html>

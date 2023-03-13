@@ -1,0 +1,106 @@
+.fieldset1
+{
+    height: 7%;
+    box-shadow: 1px 2px 10px rgb(147, 146, 146);
+    border: none;
+    background-color: white;
+    margin-top: 0.1%;
+    size: 10cm;
+}
+.fieldset2
+{
+    position: relative;
+    width: 11cm;
+    left: 11.5cm;
+    background-color: white;
+    margin-top: 1cm;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 25px rgb(42, 42, 42);
+}
+.fieldset3
+{
+    position: relative;
+    border-color: rgb(178, 178, 178); 
+    border-radius: 5px;
+    height: 1.1cm;
+    width: 8cm;
+    left: 1cm;
+
+}
+#cancel
+{
+    position: relative;
+    bottom: 1.6cm;
+    cursor: pointer;
+}
+#internet_banking
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(83, 82, 82);
+    margin-top: 0.2cm;
+    font-size: x-large;
+}
+#getUsername1 /*Image*/
+{
+    position: relative;
+    left: 3.4cm;
+    margin-top: 0.5cm;
+}
+.text1
+{
+    color: rgb(73, 73, 73);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+}
+#login_button
+{
+    position: relative;
+    height: 1.2cm;
+    width: 4.6cm;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: maroon;
+    cursor: pointer;
+}
+#customer_id
+{
+    position: relative;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    color: rgb(40, 40, 40);
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#phone
+{
+    position: relative;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    color: rgb(40, 40, 40);
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#get_id
+{
+    position: relative;
+    color: rgb(136, 14, 14);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    left: 5.6cm;
+    top: 0.2cm;
+    font-weight: lighter;
+}

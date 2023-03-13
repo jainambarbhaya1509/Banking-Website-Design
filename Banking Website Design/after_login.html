@@ -1,0 +1,78 @@
+<html>
+    <title>Above Horizon Bank</title>
+    <head>
+        <link rel="stylesheet" href="/Style/afterLogin.css">
+        <script src="/Java Script/afterLogin.js"></script>
+    </head>
+
+    <body background="/Image Source/getUsername2.jpg">
+        <fieldset class="fieldset1" style="background-color: white;">
+            <img src="/Image Source/search.jpg" height="40px" id="search">
+            <fieldset class="field1"><img src="/Image Source/home.jpg" height="35px" id="home"> <h3 id="start">Start</h3></fieldset>
+            <fieldset class="field2"><img src="/Image Source/wallet.jpg" height="35px" id="wallet"> <h3 id="have">Have</h3></fieldset>
+            <fieldset class="field3"><img src="/Image Source/pay.jpg" height="35px" id="arrow"> <h3 id="pay">Pay</h3></fieldset>
+            <fieldset class="field4"><img src="/Image Source/loans.jpg" height="35px" id="bag"> <h3 id="loans">Loans</h3></fieldset>
+            <fieldset class="field5"><img src="/Image Source/more.jpg" height="35px" id="items"> <h3 id="more">More</h3></fieldset>
+        </fieldset>
+        <fieldset class="fieldset2" style="background-color: white;">
+            <fieldset class="field6">
+                <img src="/Image Source/logout.jpg" height="35px" id="logout_button" usemap="#log_out"> <h3 id="logout">logout</h3>
+                <map name="#log_out">
+                    <area shape="rect" coords="133,128,-1,-1" href="login_page.html">
+                </map>
+            </fieldset> 
+        </fieldset>
+
+        <fieldset class="fieldset3" style="background-color: white;">
+            <input type="button" id="savings"><h3 id="savings_acc">Savings A/c</h3>
+            <input type="button" id="credit"><h3 id="credit_card">Credit Card</h3>
+
+            <fieldset id="fieldset4">
+                <h3 class="acc_type">Savings account</h3>
+                <h3 id="currency">₹</h3>
+                <h3 id="amount">50000</h3>
+            </fieldset>
+
+            <fieldset id="field7"></fieldset><img src="/Image Source/send.jpg" id="send"><h3 id="send_money">Send money</h3>
+            <fieldset id="field8"></fieldset><img src="/Image Source/fd.jpg" id="fd"><h3 id="create_fd">Create FD</h3>
+            <fieldset id="field9"></fieldset><img src="/Image Source/add_funds.jpg" id="funds"><h3 id="add_funds">Add funds</h3>
+        </fieldset>
+
+        <fieldset id="fieldset5">
+            <script>
+                function upcoming()
+                {
+                    document.getElementById("upcoming").style.cursor = "pointer";
+                    document.getElementById("upcoming").style.color = "maroon";
+                    document.getElementById("explore").style.color = "rgb(138, 138, 138)";
+                    document.getElementById("history").style.color = "rgb(138, 138, 138)";
+                    document.getElementById("frame");
+                    window.open("upcomingFrame.html", 'a');
+                }
+                function explore()
+                {
+                    document.getElementById("explore").style.cursor = "pointer";
+                    document.getElementById("explore").style.color = "maroon";
+                    document.getElementById("history").style.color = "rgb(138, 138, 138)";
+                    document.getElementById("upcoming").style.color = "rgb(138, 138, 138)";
+                    document.getElementById("frame");
+                    window.open("exploreFrame.html", 'a');
+                }
+                function history()
+                {
+                    document.getElementById("history").style.cursor = "pointer";
+                    document.getElementById("history").style.color = "maroon";
+                    document.getElementById("upcoming").style.color = "rgb(138, 138, 138)";
+                    document.getElementById("explore").style.color = "rgb(138, 138, 138)";
+                    document.getElementById("frame");
+                    window.open("historyFrame.html", 'a');
+                }
+            </script>
+            <fieldset id="upcoming" onclick="upcoming()">Upcoming</fieldset>
+            <fieldset id="explore" onclick="explore()" style="color: maroon;">Explore</fieldset>
+            <fieldset id="history" onclick="history()">History</fieldset>
+            <hr>
+            <iframe src="exploreFrame.html" frameborder="0" height="93%" width="100%" style="position: relative; top: -13%;" id="frame" onclick="explore()" name="a"></iframe>
+        </fieldset>
+    </body>
+</html>

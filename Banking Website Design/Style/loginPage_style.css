@@ -1,0 +1,94 @@
+.fieldset1
+{
+    position: relative;
+    border-radius: 10px; 
+    width: 50ch; 
+    height: 55ch;
+    left: 3cm;
+    border: none;
+    box-shadow: 1px 15px 20px black;
+    background-image: url("/Image Source/loginPage3.jpg");
+    align-items: center;
+    margin-top: 15ch;
+    background-size: cover;
+}
+.fieldset2
+{
+    position: relative;
+    border-color: whitesmoke; 
+    border-radius: 5px;
+    height: 1.1cm;
+    width: 7cm;
+    left: 1.4cm;
+
+}
+#login_button
+{
+    position: relative;
+    height: 1.2cm;
+    width: 4.6cm;
+    border-radius: 50px;
+    border-color: whitesmoke;
+    border: none;
+    cursor: pointer;
+    color: maroon;
+    font-weight: bold;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#username
+{
+    position: relative;
+    color: whitesmoke;
+    font-size: 12px;
+    left: 9ch;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+#activate_netbanking
+{
+    position: relative;
+    color: whitesmoke;
+    font-size: 12px;
+    left: 9ch;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+#manage_creditCard
+{
+    position: relative;
+    color: whitesmoke;
+    font-size: 12px;
+    left: 11ch;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+#block_netbanking
+{
+    position: relative;
+    color: whitesmoke;
+    font-size: 12px;
+    left: 11ch;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+#loginPage2
+{
+    position: relative;
+    left: 3.5cm;
+}
+#phone
+{
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    color: whitesmoke;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}

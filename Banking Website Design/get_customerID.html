@@ -1,0 +1,35 @@
+<html>
+    <title>Above Horizon Bank | Customer ID</title>
+    <head>
+        <link rel="stylesheet" href="/Style/getCustomerID.css">
+        <script src="/Java Script/getCustomerID.js"></script>
+    </head>
+
+    <body background="/Image Source/getUsername2.jpg">
+
+        <fieldset class="fieldset1">
+            <center><h3 id="get_customer_id">Get Customer ID</h3></center>
+            <img src="/Image Source/cancel.jpg" id="cancel" align="right" usemap="#customer_id">
+            <map name="customer_id">
+                <area shape="rect" coords="-1,0,58,44" href="login_page.html">
+            </map>
+        </fieldset>
+
+        <fieldset class="fieldset2">
+            <img src="/Image Source/getUsername1.jpg" id="getUsername1"> <br> 
+            <h3 class="text1">Please enter your registered mobile number to continue</h3> 
+
+            <fieldset class= "fieldset3">
+                <legend style="color: rgb(85, 83, 83); font-family: Arial, Helvetica, sans-serif; font-size: small;">Mobile number</legend>
+    
+                <form method="post">
+                    <input type="tel" maxlength="10" id="phone"><br>           
+                </form>
+            </fieldset>  
+
+            <form method="post" align="center"> <br> 
+                <input type="button" value="Proceed" onclick="phoneNum()" id="login_button">
+            </form> <br> <br>
+        </fieldset>
+    </body>
+</html>

@@ -1,0 +1,682 @@
+.fieldset1
+{
+    position: relative;
+    height: 35px;
+    width: 93%;
+    border: none;
+    box-shadow: 1px 1px 3px rgb(69, 69, 69);
+}
+#home
+{
+    position: relative;
+    left: 20%;
+    border: none;
+    background: none;
+    bottom: 1.7px;
+    left: 2px;
+}
+#start
+{
+    position: relative;
+    left: 1.1cm;
+    bottom: 1.1cm;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: medium;
+    color: rgb(39, 39, 39);
+    color: maroon;
+}
+.field1
+{
+    position: absolute;
+    height: 0.85cm;
+    width: 2.3cm;
+    left: 317px;
+    top: 1px;
+    border: none;
+}
+.field1:hover
+{
+    background-color: rgb(216, 216, 216);
+    cursor: pointer;
+}
+/*Wallet*/
+#wallet
+{
+    position: relative;
+    left: 20%;
+    border: none;
+    background: none;
+    bottom: 1.7px;
+    left: 2px;
+}
+#have
+{
+    position: relative;
+    left: 1.1cm;
+    bottom: 1.1cm;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: medium;
+    color: rgb(39, 39, 39);
+    color: maroon;
+}
+.field2
+{
+    position: absolute;
+    height: 0.85cm;
+    width: 2.3cm;
+    left: 33.7%;
+    top: 1px;
+    border: none;
+}
+.field2:hover
+{
+    background-color: rgb(216, 216, 216);
+    cursor: pointer;
+}
+/*Pay*/
+#arrow
+{
+    position: relative;
+    left: 20%;
+    border: none;
+    background: none;
+    bottom: 1.7px;
+    left: 2px;
+}
+#pay
+{
+    position: relative; 
+    left: 1.2cm;
+    bottom: 1.14cm;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: medium;
+    color: rgb(39, 39, 39);
+    color: maroon;
+}
+.field3
+{
+    position: absolute;
+    height: 0.85cm;
+    width: 2.3cm;
+    left: 42.5%;
+    top: 1px;
+    border: none;
+}
+.field3:hover
+{
+    background-color: rgb(216, 216, 216);
+    cursor: pointer;
+}
+/*Loans*/
+#bag
+{
+    position: relative;
+    left: 20%;
+    border: none;
+    background: none;
+    bottom: 1.7px;
+    left: 2px;
+}
+#loans
+{
+    position: relative; 
+    left: 1.2cm;
+    bottom: 1.14cm;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: medium;
+    color: rgb(39, 39, 39);
+    color: maroon;
+}
+.field4
+{
+    position: absolute;
+    height: 0.85cm;
+    width: 2.3cm;
+    left: 51.31%;
+    top: 1px;
+    border: none;
+}
+.field4:hover
+{
+    background-color: rgb(216, 216, 216);
+    cursor: pointer;
+}
+/*More*/
+#items
+{
+    position: relative;
+    left: 20%;
+    border: none;
+    background: none;
+    bottom: 1.7px;
+    left: 2px;
+}
+#more
+{
+    position: relative; 
+    left: 1.2cm;
+    bottom: 1.14cm;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: medium;
+    color: rgb(39, 39, 39);
+    color: maroon;
+}
+.field5
+{
+    position: absolute;
+    top: 5%;
+    height: 0.85cm;
+    width: 2.3cm;
+    left: 60%;
+    top: 1px;
+    border: none;
+}
+.field5:hover
+{
+    background-color: rgb(216, 216, 216);
+    cursor: pointer;
+}
+/*Logout*/
+.fieldset2
+{
+    position: relative;
+    bottom: 1.33cm;
+    left: 33.91cm;
+    height: 35.5px;
+    width: 0.8cm;
+    border: none;
+    box-shadow: 1px 1px 3px rgb(69, 69, 69);
+}
+#logout_button
+{
+    position: relative;
+    right: 1.4cm;
+    border: none;
+    background: none;
+    bottom: 8px;
+    height: 8mm;
+    bottom: 0.3cm;
+    
+}
+#logout
+{
+    position: relative; 
+    right: 1.45cm;
+    bottom: 0.7cm;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: small;
+    color: rgb(39, 39, 39);
+    color: maroon;
+}
+.field6
+{
+    position: absolute;
+    height: 0.7cm;
+    left: 94.5%;
+    top: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.fieldset3
+{
+    position: relative;
+    bottom: 1.2cm;
+    width: 39%;
+    height: 82%;
+    border: none;
+}
+#fieldset4
+{
+    position: relative;
+    width: 8.5cm;
+    height: 9cm;
+    left: 2.3cm;
+    top: 2cm;
+}
+#savings
+{
+    position: relative;
+    top: 50px;
+    left: 150px;
+    height: 4mm;
+    width: 4mm;
+    border-width: 1px;
+    border-radius: 3px;
+}
+
+#savings_acc
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: small;
+    position: relative;
+    top: 69px;
+    left: 127px;
+}
+#credit
+{
+    position: relative;
+    bottom: 6px;
+    left: 360px;
+    height: 4mm;
+    width: 4mm;
+    border-width: 1px;
+    border-radius: 3px;
+}
+#credit_card
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: small;
+    position: relative;
+    top: 10px;
+    left: 335px;
+}
+#fieldset4
+{
+    position: relative;
+    background-color: maroon;
+    left: 70px;
+    height: 60%;
+    width: 70%;
+    top: 5%;
+    border: none;
+}
+#field7
+{
+    position: relative;
+    top: 0.2%;
+    height: 7%;
+    width: 7%;
+    border-radius: 50%;
+    left: 20%;
+    background-color: white;
+    border: none;
+    box-shadow: 1px 1px 10px black;
+    cursor: pointer;
+}
+#field8
+{
+    position: relative;
+    bottom: 24%;
+    height: 7%;
+    width: 7%;
+    border-radius: 50%;
+    left: 44.5%;
+    background-color: yellow;
+    border: none;
+    box-shadow: 1px 1px 10px black;
+}
+#field9
+{
+    position: relative;
+    bottom: 48.5%;
+    height: 7%;
+    width: 7%;
+    border-radius: 50%;
+    left: 68%;
+    background-color: white;
+    border: none;
+    box-shadow: 1px 1px 10px black;
+}
+#send
+{
+    position: relative;
+    border-radius: 50%;
+    top: -1cm;
+    left: 3.2cm;
+    cursor: pointer;
+}
+#send_money
+{
+    position: relative; 
+    left: 2.5cm;
+    bottom: 0.7cm;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: medium;
+    color: rgb(69, 68, 68);
+}
+#fd
+{
+    position: relative;
+    border-radius: 50%;
+    bottom: 4.6cm;
+    left: 6.3cm;
+    width: 10%;
+    cursor: pointer;
+}
+#create_fd
+{
+    position: relative; 
+    left: 6.1cm;
+    bottom: 4.3cm;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: medium;
+    color: rgb(69, 68, 68);
+}
+#funds
+{
+    position: relative;
+    width: 1cm;
+    top: -56%;
+    left: 70.5%;
+    cursor: pointer;
+}
+#add_funds
+{
+    position: relative; 
+    left: 9.4cm;
+    bottom: 8cm;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: medium;
+    color: rgb(69, 68, 68);
+}
+#amount
+{
+    position: relative;
+    left: 35%;
+    bottom: 30%;
+    color: white;
+    font-size: 350%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+#currency
+{
+    position: relative;
+    left: 23%;
+    top: 8%;
+    color: white;
+    font-size: 350%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.acc_type
+{
+    position: relative;
+    left: 20%;
+    top: 7%;
+    color: white;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+#fieldset5
+{
+    position: relative;
+    bottom: 91.1%;
+    width: 20cm;
+    left: 41%;
+    height: 81.5%;
+    background-color: rgb(246, 243, 243);
+    border: none;
+}
+hr
+{
+    position: relative;
+    bottom: 75px;
+}
+#explore
+{
+    position: relative;
+    left: 2%;
+    top: -6%;
+    color: rgb(138, 138, 138);
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    width: 10mm;
+    border: none;
+}
+#upcoming
+{
+    position: relative;
+    left: 15%;
+    top: -0.1%;
+    color: rgb(138, 138, 138);
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    width: 10mm;
+    border: none;
+}
+#history
+{
+    position: relative;
+    left: 30.5%;
+    top: -12.1%;
+    color: rgb(138, 138, 138);
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    width: 10mm;
+    border: none;
+}
+#iframe1
+{
+    position: relative;
+    bottom: 21mm;
+}
+#iframe2
+{
+    position: relative;
+    bottom: 155.5mm;
+}
+#iframe3
+{
+    position: relative;
+    bottom: 290mm;
+}
+/*
+#field10
+{
+    position: relative;
+    top: -10%;
+    height: 87.5%;
+    border: none;
+}
+#subfield1
+{
+    position: relative;
+    height: 2cm;
+    border-radius: 20px;
+    width: 4cm;
+    top: 5%;
+    background-color: white;
+    box-shadow: 1px 1px 3px rgb(69, 69, 69);
+    border: none;
+}
+#subfield2
+{
+    position: relative;
+    height: 2cm;
+    border-radius: 20px;
+    width: 4cm;
+    left: 37%;
+    top: -14%;
+    background-color: white;
+    box-shadow: 1px 1px 3px rgb(69, 69, 69);
+    border: none;
+}
+#subfield3
+{
+    position: relative;
+    height: 2cm;
+    border-radius: 20px;
+    width: 4cm;
+    bottom: 4.2cm;
+    left: 74%;
+    background-color: white;
+    box-shadow: 1px 1px 3px rgb(69, 69, 69);
+    border: none;
+}
+#subfield4
+{
+    position: relative;
+    height: 2cm;
+    border-radius: 20px;
+    width: 4cm;
+    top: -16.5%;
+    background-color: white;
+    box-shadow: 1px 1px 3px rgb(69, 69, 69);
+    border: none;
+}
+#subfield5
+{
+    position: relative;
+    height: 2cm;
+    border-radius: 20px;
+    width: 4cm;
+    top: -36%;
+    left: 37%;
+    background-color: white;
+    box-shadow: 1px 1px 3px rgb(69, 69, 69);
+    border: none;
+}
+#subfield6
+{
+    position: relative;
+    height: 2cm;
+    border-radius: 20px;
+    width: 4cm;
+    top: -55%;
+    left: 74%;
+    background-color: white;
+    box-shadow: 1px 1px 3px rgb(69, 69, 69);
+    border: none;
+}
+#subfield7
+{
+    position: relative;
+    height: 2cm;
+    border-radius: 20px;
+    width: 4cm;
+    top: -40%;
+    background-color: white;
+    box-shadow: 1px 1px 3px rgb(69, 69, 69);
+    border: none;
+}
+#subfield8
+{
+    position: relative;
+    height: 2cm;
+    border-radius: 20px;
+    width: 4cm;
+    top: -60%;
+    left: 37.5%;
+    background-color: white;
+    box-shadow: 1px 1px 3px rgb(69, 69, 69);
+    border: none;
+}
+#subfield9
+{
+    position: relative;
+    border-radius: 20px;
+    height: 2cm;
+    width: 4cm;
+    top: -80%;
+    left: 74%;
+    background-color: white;
+    box-shadow: 1px 1px 3px rgb(69, 69, 69);
+    border: none;
+}
+#text1
+{
+    position: relative;
+    right: -0.5cm;
+    font-size: 4mm;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(83, 82, 82);
+    font-weight: lighter;
+}
+#text2
+{
+    position: relative;
+    top: -0.1cm;
+    left: 11mm;
+    font-size: 4mm;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(83, 82, 82);
+    font-weight: lighter;
+}
+#text3
+{
+    position: relative;
+    top: -0.1cm;
+    left: 10mm;
+    font-size: 4mm;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(83, 82, 82);
+    font-weight: lighter;
+}
+#text4
+{
+    position: relative;
+    top: -0.1cm;
+    left: 10mm;
+    font-size: 4mm;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(83, 82, 82);
+    font-weight: lighter;
+}
+#text5
+{
+    position: relative;
+    top: -0.1cm;
+    left: 10mm;
+    font-size: 4mm;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(83, 82, 82);
+    font-weight: lighter;
+}
+#text6
+{
+    position: relative;
+    top: -0.1cm;
+    left: 2mm;
+    font-size: 4mm;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(83, 82, 82);
+    font-weight: lighter;
+}
+#text7
+{
+    position: relative;
+    top: -0.1cm;
+    left: 10mm;
+    font-size: 4mm;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(83, 82, 82);
+    font-weight: lighter;
+}
+#text8
+{
+    position: relative;
+    top: -0.1cm;
+    left: 5mm;
+    font-size: 4mm;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(83, 82, 82);
+    font-weight: lighter;
+}
+#text9
+{
+    position: relative;
+    top: -0.1cm;
+    left: 5mm;
+    font-size: 4mm;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(83, 82, 82);
+    font-weight: lighter;
+}
+*/
